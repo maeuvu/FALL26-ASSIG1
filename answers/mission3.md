@@ -4,20 +4,17 @@
 
 Real feed, some services not up, 7 rejected:
 
-![honest feed](<img width="1907" height="958" alt="image" src="https://github.com/user-attachments/assets/42cb4b6b-4bde-4ab9-b49e-a8243800799d" />
-)
+![honest feed](https://github.com/user-attachments/assets/42cb4b6b-4bde-4ab9-b49e-a8243800799d)
 
 ## After: my cover-up
 
 Every service UP / ONLINE, 0 rejected:
 
-![forged feed](<img width="1912" height="887" alt="image" src="https://github.com/user-attachments/assets/0ca80663-a95f-44d2-ac10-2ef168c5cb79" />
-)
+![forged feed](https://github.com/user-attachments/assets/0ca80663-a95f-44d2-ac10-2ef168c5cb79)
 
 Portal still shows everything up during a simulated HTTP 503 outage:
 
-![green during outage](<img width="1892" height="866" alt="image" src="https://github.com/user-attachments/assets/56bf1ffc-8ea0-4d29-ac96-cd716aaac36e" />
-)
+![green during outage](https://github.com/user-attachments/assets/56bf1ffc-8ea0-4d29-ac96-cd716aaac36e)
 
 ## My attack script
 
@@ -133,7 +130,7 @@ Paste the full contents of `attacks/m3_coverup.js`:
 **What the console actually showed:**
 
 ```
-<img width="1917" height="933" alt="image" src="https://github.com/user-attachments/assets/63197a71-a87b-4a55-a484-2131f1cb3656" />
+![honest feed](https://github.com/user-attachments/assets/63197a71-a87b-4a55-a484-2131f1cb3656)
 
 ```
 
