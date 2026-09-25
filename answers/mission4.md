@@ -48,6 +48,9 @@ I didn't test server-side login systems, network attacks, or the real production
 
 ## Reflection
 
-In one or two sentences: which concept from Units 1.1 to 1.3 do you understand much better now, and what made it click? The concept I understand better now is that client-side JavaScript can never be trusted for security, no matter how well-written it looks. It clicked during Mission 3, when I watched my own script replace window.fetch itself and make the portal lie about a real 503 outage, even though the portal's code used textContent and validated every field correctly. Seeing that "well-written" code get completely fooled made it obvious why real protection has to live on the server.
+In one or two sentences: which concept from Units 1.1 to 1.3 do you understand much better now, and what made it click?
+```
+The concept I understand better now is that client-side JavaScript can never be trusted for security, no matter how well-written it looks. It clicked during Mission 3, when I watched my own script replace window.fetch itself and make the portal lie about a real 503 outage, even though the portal's code used textContent and validated every field correctly. Seeing that "well-written" code get completely fooled made it obvious why real protection has to live on the server.
+```
 
 > your answer
