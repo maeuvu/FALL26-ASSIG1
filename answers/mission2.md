@@ -4,15 +4,13 @@
 
 The button dodges (two positions), with my attacker counter visible:
 
-![position 1](<img width="486" height="677" alt="image" src="https://github.com/user-attachments/assets/bfa11c49-80df-4e3f-be06-a13815ef6a39" />
-)
-![position 2](<img width="955" height="606" alt="image" src="https://github.com/user-attachments/assets/81c41f9f-3a49-40c8-b8b8-8f5e4f3e6d6c" />)
+![position 1](https://github.com/user-attachments/assets/bfa11c49-80df-4e3f-be06-a13815ef6a39)
+![position 2](https://github.com/user-attachments/assets/81c41f9f-3a49-40c8-b8b8-8f5e4f3e6d6c)
 
 
 A legitimate click does nothing after my attack (log still reads "No purge requested"):
 
-![click does nothing](<img width="983" height="537" alt="image" src="https://github.com/user-attachments/assets/e74a8e39-ed01-4a2f-a685-3f41ac28dfe0" />
-)
+![click does nothing](https://github.com/user-attachments/assets/e74a8e39-ed01-4a2f-a685-3f41ac28dfe0)
 
 ## My attack script
 
