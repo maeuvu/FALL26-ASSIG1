@@ -4,3 +4,4 @@ Thumbs.db
 
 # Mission 0: something important is missing from this file.
 # Read the README, then fix it.
+node_modules/
