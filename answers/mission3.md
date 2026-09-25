@@ -130,7 +130,7 @@ Paste the full contents of `attacks/m3_coverup.js`:
 **What the console actually showed:**
 
 ```
-![honest feed](https://github.com/user-attachments/assets/63197a71-a87b-4a55-a484-2131f1cb3656)
+(https://github.com/user-attachments/assets/63197a71-a87b-4a55-a484-2131f1cb3656)
 
 ```
 
