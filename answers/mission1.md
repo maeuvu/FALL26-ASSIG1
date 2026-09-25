@@ -37,7 +37,8 @@ parseStatusReport()
   PASS  JSON null fails safe
   PASS  mixed report keeps valid entries and counts rejected ones
 
-24 passed, 0 failed```
+24 passed, 0 failed
+```
 
 ## Connections: Python to JavaScript
 
@@ -45,12 +46,12 @@ For each check you implemented, write how you would do it in Python and how you 
 
 | Rule | Python | JavaScript, as in my code |
 |---|---|---|
-| raw is a dictionary or object, not a list | `isinstance(raw, dict)` | |
-| name is a non-empty string after trimming | | |
-| status is one of the allowed values | | |
-| online is a real boolean | | |
-| latencyMs is a finite number ≥ 0 | | |
-| invalid JSON does not crash the program | | |
+| raw is a dictionary or object, not a list | `isinstance(raw, dict)` | `typeof raw !== "object" \|\| raw === null \|\| Array.isArray(raw)` |
+| name is a non-empty string after trimming | `isinstance(raw['name'], str) and raw['name'].strip() != ""` | `typeof raw.name !== "string"` then `raw.name.trim()`, check `trimmedName.length === 0` |
+| status is one of the allowed values | `raw['status'] in ALLOWED_STATUS` | `!ALLOWED_STATUS.includes(raw.status)` |
+| online is a real boolean | `isinstance(raw['online'], bool)` | `typeof raw.online !== "boolean"` |
+| latencyMs is a finite number ≥ 0 | `isinstance(raw['latencyMs'], (int, float)) and math.isfinite(raw['latencyMs']) and raw['latencyMs'] >= 0` | `typeof raw.latencyMs !== "number" \|\| !Number.isFinite(raw.latencyMs) \|\| raw.latencyMs < 0` |
+| invalid JSON does not crash the program | `try: json.loads(text)` / `except json.JSONDecodeError:` | `try { JSON.parse(jsonText) } catch (e) { ... }` |
 
 ## Questions
 
